@@ -1,13 +1,15 @@
 .shoping-container{
-    width: 1248px;
-    margin: 2rem auto;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 4fr 2fr;
 }
 
 .product-container{
-    background-color: antiquewhite;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+    align-content: center;
 }
 
 .details-container{

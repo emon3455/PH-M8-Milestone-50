@@ -1,0 +1,20 @@
+.product{
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 10px; 
+}
+.product img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.addToCart{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #dfab67;
+    border: none;
+    border-radius: 10px;
+}
