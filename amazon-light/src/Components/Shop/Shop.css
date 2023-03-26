@@ -16,3 +16,22 @@
     background-color: #f7dc92;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px){
+    .shoping-container{
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .product-container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media screen and (max-width: 770px){
+    .shoping-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}
