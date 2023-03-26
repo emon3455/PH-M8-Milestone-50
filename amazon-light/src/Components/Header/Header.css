@@ -1,5 +1,5 @@
 .header{
-    background-color: #141414;
+    background-color: #1b1b1b;
     padding: 0.5rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 .headerNav a{
     text-decoration: none;
     color: white;
-    margin-right: 1rem;
+    margin-right: 1.4rem;
     font-size: 1.2rem;
     transition: all 0.5s ease-in;
 }
@@ -24,6 +24,6 @@
         flex-direction: column;
     }
     .headerNav a{
-        margin-right: 0.5rem;
+        margin-right: 1rem;
     }
 }

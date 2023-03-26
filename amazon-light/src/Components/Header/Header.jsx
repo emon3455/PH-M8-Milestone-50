@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Header.css";
-import logo from "../../images/Logo.svg"
+import logo from "../../../public/images/Logo.svg"
 
 const Header = () => {
     return (
@@ -11,9 +11,9 @@ const Header = () => {
             </div>
 
             <nav className='headerNav'>
-                <a href="./order">Order</a>
-                <a href="./orderReview">Order-Review</a>
-                <a href="./manageInventory">Manage-Inventory</a>
+                <a href="./shop">Shop</a>
+                <a href="./order">Orders</a>
+                <a href="./inventory">Inventory</a>
                 <a href="./login">Login</a>
             </nav>
 

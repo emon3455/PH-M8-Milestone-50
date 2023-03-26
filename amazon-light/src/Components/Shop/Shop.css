@@ -1,0 +1,15 @@
+.shoping-container{
+    width: 1248px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+}
+
+.product-container{
+    background-color: antiquewhite;
+}
+
+.details-container{
+    background-color: aqua;
+}
