@@ -10,7 +10,7 @@ const Shop = () => {
     useEffect(()=>{
 
         try{
-            fetch("../../../public/./fakeData/products.json")
+            fetch("products.json")
             .then(res => res.json())
             .then(data => setProducts(data))
         }
